@@ -9,7 +9,6 @@ IITB Insti Assist is a Retrieval Augmented Generation (RAG) based AI assistant d
 
 The assistant is designed to answer academic and institute related queries while refusing to answer questions that are not supported by the available documents.
 
----
 
 ## Features
 
@@ -21,11 +20,10 @@ The assistant is designed to answer academic and institute related queries while
 - "I don't know" response when sufficient evidence is unavailable
 - Interactive web interface built using Gradio
 
----
 
 ## Project Architecture
 
-```
+
 User Question
       │
       ▼
@@ -45,9 +43,8 @@ Google Gemini LLM
       │
       ▼
 Grounded Answer + Sources
-```
 
----
+
 
 ## Dataset
 
@@ -68,7 +65,7 @@ Total Chunks: **170**
 
 Embedding Dimension: **384**
 
----
+
 
 ## Technology Stack
 
@@ -81,7 +78,7 @@ Embedding Dimension: **384**
 | Large Language Model | Google Gemini |
 | User Interface | Gradio |
 
----
+
 
 ## Project Structure
 
@@ -104,41 +101,6 @@ IITB Insti Assist/
    - Gemini generates an answer using only the retrieved information.
 6. The assistant displays both the answer and the supporting source documents.
 
----
-
-## Example Questions
-
-- Can students pursue two minors?
-- What is the Fast Track Degree?
-- Who approves a Fast Track Degree application?
-- What is the role of a Faculty Adviser?
-- How many credits are required for graduation?
-
----
-
-## Sample Output
-
-**Question**
-
-```
-Can students pursue two minors?
-```
-
-**Answer**
-
-```
-Yes. According to the revised Dual Minor Policy, students are permitted to pursue more than one minor, subject to the relevant academic regulations and Faculty Adviser approval.
-```
-
-**Sources**
-
-```
-Policy Newsletter.pdf (Page 2)
-
-UG_RULE_BOOK.pdf (Page 13)
-```
-
----
 
 ## Limitations
 
@@ -147,7 +109,7 @@ UG_RULE_BOOK.pdf (Page 13)
 - Performance depends on document quality and retrieval accuracy.
 - Does not maintain multi-turn conversational memory.
 
----
+
 
 ## Future Improvements
 
@@ -158,13 +120,11 @@ UG_RULE_BOOK.pdf (Page 13)
 - Hybrid keyword + semantic search
 - Support for additional IIT Bombay departments and councils
 
----
 
 ## Authors
 
 Developed as the Final Project for the **WnCC NLP Learners' Space** at **IIT Bombay**.
 
----
 
 ## License
 
