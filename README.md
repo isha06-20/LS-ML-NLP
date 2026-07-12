@@ -82,13 +82,14 @@ Embedding Dimension: **384**
 
 ## Project Structure
 
-```
+
 IITB Insti Assist/
 │
 ├── app.py
 ├── README.md
 
-## How It Works
+
+## How it works
 
 1. Official IIT Bombay PDF documents are loaded.
 2. Documents are divided into overlapping chunks.
