@@ -79,16 +79,6 @@ Embedding Dimension: **384**
 | User Interface | Gradio |
 
 
-
-## Project Structure
-
-
-IITB Insti Assist/
-│
-├── app.py
-├── README.md
-
-
 ## How it works
 
 1. Official IIT Bombay PDF documents are loaded.
