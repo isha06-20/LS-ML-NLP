@@ -91,36 +91,6 @@ IITB Insti Assist/
 ├── app.py
 ├── README.md
 
-## Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/IITB-Insti-Assist.git
-
-cd IITB-Insti-Assist
-```
-
-Install dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the Application
-
-Start the Gradio application.
-
-```bash
-python app.py
-```
-
-The interface will launch in your browser.
-
----
-
 ## How It Works
 
 1. Official IIT Bombay PDF documents are loaded.
